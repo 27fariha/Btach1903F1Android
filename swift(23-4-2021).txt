@@ -1,0 +1,71 @@
+/for loop
+// for (var i=0; i<=10; i++){}
+// for variable lower_limit...upper_limit
+for i in 0...10 {
+print(i)
+}
+
+//while loop
+var counter=0
+while counter<=10{
+print(counter)
+    counter = counter+1 // counter++ => 1= 1+1=> 2
+}
+
+//repeat while
+var a=0
+repeat{
+print(a)
+a=a+1
+}
+while(a<=10)
+
+
+//functions 
+
+//syntax : func FuncName(){ //code }
+
+func show(){
+
+print("This is some text 1")
+
+print("This is some text 2")
+
+print("This is some text 3")
+
+print("This is some text 4")
+
+print("This is some text 5")
+
+}
+
+
+
+//function calling 
+
+show()
+
+show()
+
+show()
+
+
+
+
+// public int add(){ return 10}
+//return type
+
+func add()->Int{
+ 
+let a = 5
+ 
+let b = 10
+ 
+let c = a+b
+ 
+return c
+
+}
+
+
+print(add())

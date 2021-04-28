@@ -1,0 +1,68 @@
+import UIKit
+
+//var str = "Hello, playground"
+
+var num=123
+print(num)
+num=987
+print(num)
+
+let name="Naeem"
+print(name)
+//name="Haider"
+
+var salary:Float=23.65
+print(salary)
+
+
+var a=2
+
+if a>=10 {
+    print("true")
+}
+else if a<=10{
+    print(a)
+}
+else{
+    print("False")
+}
+
+
+var b=3
+
+if a<=10 && b>5{
+print("a is lessthan 10 and b is greater than 5")
+}
+
+
+//switch
+
+var alpha = "A"
+switch alpha {
+case "a" , "A":
+    print("vowel")
+    break
+case "e" :
+    print("vowel")
+    break
+case "i" :
+    print("vowel")
+    break
+case "o" :
+    print("vowel")
+    break
+default:
+    print("Consonent")
+    break
+}
+
+var alpha1 = "z"
+switch alpha1 {
+case "a","A","e","E", "i","I","o","O","u","U":
+    print("vowel")
+    break
+default:
+    print("Consonent")
+    break
+}
+
